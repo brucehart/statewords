@@ -49,7 +49,6 @@ int main(int argc, char** argv)
 
 	while(std::getline(wordList, w))
 	{
-		std::transform(w.begin(), w.end(), w.begin(), [](auto const& c)->)
 		auto nm = noMatches(sLetters, w);
 
 		if (nm.size() == 1)
